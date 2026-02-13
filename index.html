@@ -10,10 +10,10 @@
 <body>
     <div class="container">
         <header class="sidebar">
-            <div>
+            <div class="top-content">
                 <h1>Brian K. Oh</h1>
                 <h2>BS Computer Engineering Graduate</h2>
-                <p class="tagline">I build hardware-integrated software and smart systems.</p>
+                <p class="tagline">I build hardware integrated software and smart systems.</p>
                 
                 <nav class="nav-links">
                     <a href="#about">About</a>
@@ -22,32 +22,39 @@
                 </nav>
             </div>
             
-            <div class="social-links">
-                <a href="https://linkedin.com/in/brian-k-oh" target="_blank">LinkedIn</a>
-                <a href="mailto:bko2012@nyu.edu">Email</a>
+            <div class="sidebar-footer">
+                <p class="email-text">bko2012@nyu.edu</p>
+                <div class="social-icons">
+                    <a href="https://github.com/bfianoh" target="_blank" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/brian-k-oh" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
             </div>
         </header>
 
         <main class="content">
             <section id="about">
                 <p>
-                    I am a Computer Engineering graduate from NYU [cite: 41] passionate about the intersection of 
+                    I am a Computer Engineering graduate from NYU passionate about the intersection of 
                     robotics, software, and smart infrastructure. From developing autonomous navigation 
-                    algorithms [cite: 48] to managing multi-unit residential tech installations[cite: 55], 
-                    I focus on building efficient, real-world solutions.
+                    algorithms to managing multi unit residential tech installations, 
+                    I focus on building efficient, real world solutions.
                 </p>
             </section>
 
             <section id="experience">
-                <h3>Experience</h3>
+                <h3 class="section-title">Experience</h3>
                 
                 <div class="card">
                     <div class="card-date">2023 — Present</div>
                     <div class="card-info">
                         <h4>Software Engineer Intern · Alltramatic, LLC</h4>
-                        <p>Developed Python programs on Nvidia Jetson Nano AI to enhance robot navigation efficiency by 25%[cite: 48]. Established 15+ data models using Firebase[cite: 51].</p>
+                        <p>Develop Python programs on the Nvidia Jetson Nano AI, enhancing efficiency of autonomous robot navigation by over 25%. Collaborate in a cross functional team of hardware and software engineers to optimize drive control algorithms. Address drifting issues by analyzing IMU and wheel speed test data, and filtering data in CSV format for streamlined sorting and plotting in Google Sheets. Establish and manage 15+ data models, leveraging Firebase database to efficiently capture data for analysis. Craft comprehensive design documents in Google Slides, outlining software requirements and defining performance operation range limits, while producing videos to showcase robot motion control for team review.</p>
                         <div class="tags">
-                            <span>Python</span><span>Nvidia Jetson</span><span>Firebase</span>
+                            <span>Python</span><span>Nvidia Jetson</span><span>Firebase</span><span>Google Suite</span>
                         </div>
                     </div>
                 </div>
@@ -55,24 +62,33 @@
                 <div class="card">
                     <div class="card-date">2023 — Present</div>
                     <div class="card-info">
-                        <h4>IT & Smart Home Subcontractor · Atmya, LLC</h4>
-                        <p>Managed technology installations for 4 multi-unit residential properties[cite: 55]. Configured secure IT networks and integrated smart home automation[cite: 57, 58].</p>
+                        <h4>IT & Smart Home Systems Subcontractor · Atmya, LLC</h4>
+                        <p>Manage complete technology installations across 4 multi unit residential properties, coordinating with contractors and vendors to meet project timelines and budget. Handle inquiries and provide onsite and remote tech support to 30+ tenants by resolving property damage, smart home system, and network connectivity issues. Install and configure secure IT networks, access points, and security systems including CCTV intercoms. Integrate smart home automation, including climate control, water leak detection, laundry payment systems.</p>
                         <div class="tags">
-                            <span>Networking</span><span>Smart Home</span><span>CCTV</span>
+                            <span>Networking</span><span>Smart Home</span><span>CCTV</span><span>Intercoms</span>
                         </div>
                     </div>
+                </div>
+
+                <div class="resume-link-container">
+                    <a href="Brian Oh 2026.pdf" target="_blank" class="resume-link">
+                        <span>View Full Résumé</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="arrow-icon">
+                            <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
             </section>
 
             <section id="projects">
-                <h3>Projects</h3>
+                <h3 class="section-title">Projects</h3>
                 
                 <div class="card">
                     <div class="card-info">
                         <h4>Chiron VR</h4>
-                        <p>Built an open-source haptic glove for VR surgical training using Arduino and Fusion.</p>
+                        <p>Built open source, fully hand mounted haptic glove designed for VR surgical training, capable of motion tracking, gesture control, and simulating object interaction with physical feedback.</p>
                         <div class="tags">
-                            <span>Arduino</span><span>Fusion</span><span>C++</span>
+                            <span>Arduino</span><span>Fusion</span><span>VR</span>
                         </div>
                     </div>
                 </div>
@@ -80,9 +96,19 @@
                 <div class="card">
                     <div class="card-info">
                         <h4>Parkinson's Tremor Detector</h4>
-                        <p>Created a wearable device using IMUs to detect resting tremors and signal for aid[cite: 68].</p>
+                        <p>Created a wearable device using microcontroller IMUs that detects the presence and intensity of resting tremors and signals for aid via visual and audio feedback.</p>
                         <div class="tags">
-                            <span>C++</span><span>Arduino</span><span>Hardware</span>
+                            <span>C++</span><span>Arduino</span><span>IMU</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-info">
+                        <h4>Stock Market Analysis Tool</h4>
+                        <p>Programmed desktop app using the Bloomberg API to extract real time trading data for machine learning analysis, database storage, and online networking.</p>
+                        <div class="tags">
+                            <span>Java</span><span>SQL</span><span>Bloomberg API</span>
                         </div>
                     </div>
                 </div>
